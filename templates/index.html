@@ -3,13 +3,16 @@
 <head>
 <title>Thankky</title>
 <meta charset="utf-8">
-<link rel="shortcut icon" type="image/x-icon" href="css/images/favicon.ico">
-<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
-<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="all">
-<script src="js/jquery-1.7.2.min.js"></script>
-<!--[if lt IE 9]><script src="js/modernizr.custom.js"></script><![endif]-->
-<script src="js/jquery.flexslider-min.js"></script>
-<script src="js/functions.js"></script>
+<link rel="shortcut icon" type="image/x-icon" href="../static/css/images/favicon.ico">
+<link rel="stylesheet" href="../static/css/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="../static/css/flexslider.css" type="text/css" media="all">
+<script src="{{url_for('static', filename='jquery-1.7.2.min.js')}}"></script>
+<!--script src="../static/jquery-1.7.2.min.js"></script>
+<[if lt IE 9]><script src="js/modernizr.custom.js"></script><![endif]-->
+<!--script src="../static/js/jquery.flexslider-min.js"></script-->
+<script src="{{url_for('static', filename='jquery.flexslider-min.js')}}"></script>
+<!--script src="../static/functions.js"></script-->
+<script src="{{url_for('static', filename='functions.js')}}"></script>
 </head>
 <body>
 <!-- wrapper -->
@@ -32,7 +35,7 @@
       <div class="slider-holder"> <span class="slider-shadow"></span>
         <div class="slider flexslider">
           <ul class="slides">
-            <li> <img src="css/images/slide-img.jpg" alt="">
+            <li> <img src="../static/css/images/slide-img.jpg" alt="">
               <div class="slide-cnt">
                 <h3>Appreciate Some More: Use Thankky</h3>
                 <p>Imagine you are always appreciated, Yes it would be great. Why not do it for someone now!
@@ -42,7 +45,7 @@
                   YOU KNOW WHAT? Wonder No More! Ask Thankky. Do You HAVE  a QUESTION or Just Appreciate YOUR LOVE </p>
                 <a href="https://thankky.vercel.app/" class="slider-btn">Use Thankky</a> </div>
             </li>
-            <li> <img src="css/images/slide-img.jpg" alt="">
+            <li> <img src="../static/css/images/slide-img.jpg" alt="">
               <div class="slide-cnt">
                 <h3>Answer Your Questions With Zero Stress: Use Thankky</h3>
                 <p>We are highly intrigue by your visit to our site today. How are you feeling?
@@ -51,7 +54,7 @@
                   YOU KNOW WHAT? Crack Your Brain No More! Ask Thankky. </p>
                 <a href="https://thankky.vercel.app/" class="slider-btn">Ask Thankky</a> </div>
             </li>
-            <li> <img src="css/images/slide-img.jpg" alt="">
+            <li> <img src="../static/css/images/slide-img.jpg" alt="">
               <div class="slide-cnt">
                 <h3>Get Support on Your Tech Adventure and Project with Our Services</h3>
                 <p>We are highly intrigue by your visit to our site today. How do you feel?
@@ -78,22 +81,22 @@
       <section class="cols">
         <div class="col">
           <h4><a href="https://thankky.vercel.app/">Try Thankky Now!</a></h4>
-          <a href="https://thankky.vercel.app/"><img src="css/images/col-img1.png" alt=""></a>
+          <a href="https://thankky.vercel.app/"><img src="../static/css/images/col-img1.png" alt=""></a>
           <p>Everyone is special. They will feel great and do more if you can appreciate the little they did. Use Thankky Now... </p>
         </div>
         <div class="col">
           <h4><a href="https://thankky.vercel.app/">Answer Your Questions With Thankky</a></h4>
-          <a href="https://thankky.vercel.app/"><img src="css/images/col-img2.png" alt=""></a>
+          <a href="https://thankky.vercel.app/"><img src="../static/css/images/col-img2.png" alt=""></a>
           <p>All the time we are full of questions. Your mind keep wondering all around. Now you can use Thankky as your quick answering machine... </p>
         </div>
         <div class="col">
           <h4><a href="https://github.com/idowuseyi">Check Out Our Repsitory</a></h4>
-          <a href="https://github.com/idowuseyi"><img src="css/images/col-img3.png" alt=""></a>
+          <a href="https://github.com/idowuseyi"><img src="../static/css/images/col-img3.png" alt=""></a>
           <p>Checkout our codebase for something beautiful and the journey so far... </p>
         </div>
         <div class="col">
           <h4><a href="#">Let's Help Build Your Next Idea</a></h4>
-          <a href="#"><img src="css/images/col-img4.png" alt=""></a>
+          <a href="#"><img src="../static/css/images/col-img4.png" alt=""></a>
           <p>Benefit from our great collection of skills all over the world. Contact Us Now... </p>
         </div>
         <div class="cl">&nbsp;</div>

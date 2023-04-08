@@ -32,7 +32,7 @@ h4 { font-size: 19px; line-height: 20px; color: #fff; font-family: georgia, aria
 header { background-color: #141414; border-bottom: 1px solid #006e86; height: 90px; }
 header .shell { position: relative; }
 #logo { width: 324px; position: absolute; top: 36px; left: 0; font-size: 0; line-height: 0; }
-#logo a { height: 64px; display: block; background: url(images/logo.png) no-repeat 0 0; text-indent: -4000px; }
+#logo a { height: 200px; display: block; background: url(.png) no-repeat 0 0; text-indent: -4000px; }
 
 /* navigation */
 #navigation { text-align: right; padding-top: 34px; font-size: 16px; font-family: georgia, arial, helvetica, serif; padding-right: 16px; }
